@@ -14,8 +14,8 @@ Table of Contents:
  /*#1C2B32 donkergroen/*
 ////////////////////////////////////////////////////////////////////////*/
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -24,6 +24,7 @@ Table of Contents:
 ////////////////////////*/
 body {
     font-family: 'Poppins', sans-serif;
+    color: #1C2B32;
 }
 
 
@@ -38,11 +39,15 @@ body {
 
 
 /*///////////// 3.1 Header /////////////*/
-header{
+header {
     background-image: url(../assets/images/mountains.jpg);
     background-size: 100%;
-    background-position: 0px -40px;
-    padding: 150px 0px;
+    background-position: 0 -60px;
+    padding: 150px 0;
+}
+
+h1 {
+    font-size: 120px;
 }
 
 .title-intro {
@@ -52,22 +57,37 @@ header{
 }
 
 .domain-name {
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
     border-style: solid;
     border-color: #1C2B32;
-    padding: 5px;
+    background-color: transparent;
+    padding: 20px;
 }
 
 .check-domain {
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     border-style: solid;
     border-color: #1C2B32;
-    background-color:#1C2B32;
+    background-color: #1C2B32;
     color: white;
     margin: -7px;
-    padding: 5px;
+    padding: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cal-image {
+    max-width: 100%;
+    border-radius: 5px;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
@@ -77,6 +97,26 @@ header{
 
 
 /*///////////// 3.4 Faq /////////////*/
+details{
+    cursor:pointer}
+
+details > summary{
+    padding: 15px;
+}
+details > p {
+    background-color: hsl(199, 28%, 45%);
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+footer {
+    text-align: center;
+    background-color: #1C2B32;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
