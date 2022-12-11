@@ -46,6 +46,10 @@ header {
     padding: 150px 0;
 }
 
+.title-intro p {
+    margin: 15px 0;
+}
+
 h1 {
     font-size: 120px;
 }
@@ -83,26 +87,78 @@ main {
 
 h2 {
     text-align: center;
+    margin: 40px 0 40px 0
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+.testimonial {
+    max-width: 1000px;
+}
+
+.portrait {
+    position: absolute;
+    width: 44px;
+    border-radius: 50%;
+    margin: 10 0 0 0;
+}
+
+.quote {
+    margin: 40px 0;
+    padding: 50px 80px 50px 80px;
+    border-radius: 5px;
+    box-shadow: #899CA0 0px 5px 15px;
+}
+
+.quote article {
+    margin: 0 0 20px 50px;
+    max-width: 800px;
+}
+
+.quote p {
+    margin-bottom: 15px;
+}
+
+.quotation-mark {
+    position: absolute;
+}
+
+span {
+    display: inline-block;
+    font-style: italic;
+    margin: 10px 0 0 65px;
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+.contact-button {
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #1C2B32;
+    background-color: #1C2B32;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+}
+
+.support p {
+    margin: 15px 0;
 }
 
 .cal-image {
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
-
-/*///////////// 3.2 Testimonial /////////////*/
-
-
-/*///////////// 3.3 Support /////////////*/
-
 
 /*///////////// 3.4 Faq /////////////*/
-details{
-    cursor:pointer}
+details {
+    cursor: pointer
+}
 
-details > summary{
+details > summary {
     padding: 15px;
 }
+
 details > p {
     background-color: hsl(199, 28%, 45%);
     border-radius: 5px;
