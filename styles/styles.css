@@ -27,7 +27,13 @@ body {
     color: #1C2B32;
 }
 
+a:link {
+    color: #899CA0;
+}
 
+a:hover{
+    text-decoration: none;
+}
 /*////////////////////////
     2. Typography
 ////////////////////////*/
